@@ -79,6 +79,7 @@ header, main {
     margin-right: 100px;
     display: flex;
     gap: 40px;
+    cursor: pointer;
 }
 
 .header-links {
@@ -119,6 +120,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 section {
@@ -163,12 +165,12 @@ article {
     margin-top: 100px;
     height: 400px;
     width: auto;
-    background-color: #e5e7eb;
+    background-color: #b8bedd;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-}
+ }
 
 article .quote {
     font-family: "Merriweather", sans-serif;
@@ -210,4 +212,17 @@ footer {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    transition: all 1s ease-in 0.25s;
+    background-color: #affc41;
+    color: black;
+}
+
+#footer-page .sign-up:hover {
+    transition: all 1s ease-in 0.25s;
+    background-color: #affc41;
+    color: black;
 }
